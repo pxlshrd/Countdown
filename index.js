@@ -105,14 +105,7 @@ function moon(){
 	noStroke()
 	ellipse(moonX-15-moonPhase, moonY-10-moonPhase, moonSize);
 	blendMode(BLEND);
-  }
-
-  function rotateXY(x,y, theta){
-	return {
-	  x: x*cos(theta) - y*sin(theta),
-	  y: x*sin(theta) + y*cos(theta)
-	};
-  }
+}
 
 function countDown() {
 	const countDownDate = new Date("Nov 7, 2022 15:30:30").getTime();

@@ -1,0 +1,30 @@
+body {
+<<<<<<< HEAD
+  margin:0;
+	padding:0;
+	display:block;
+	width:100vw;
+	height:100vh;
+	overflow:hidden;
+  background-color: black;
+  object-fit: contain;
+}
+canvas {
+	max-width: 100%;
+	max-height: 100%;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	object-fit: contain;
+}
+=======
+  background-color: lightblue;
+
+  /* leave it to hide the scrollbars */
+  overflow: hidden;
+}
+>>>>>>> 0000e17986e23496cecd813cbfd0c3b0c69c252f
